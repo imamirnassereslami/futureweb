@@ -1,0 +1,17 @@
+{
+  "name": "6.design2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "vite --open --host",
+    "build": "vite build",
+    "preview": "vite preview --open --host",
+    "predeploy": "npm run build",
+    "deploy": "surge ./dist futurewebdesign.surge.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
